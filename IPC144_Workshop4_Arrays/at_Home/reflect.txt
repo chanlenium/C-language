@@ -1,0 +1,34 @@
+//==============================================
+// Name:           Dongchan Oh
+// Student Number: 128975190
+// Email:          dcoh@myseneca.ca
+// Section:        M
+// Workshop:       4 (at-home)
+//==============================================
+
+
+<What I learned while doing workshop>
+While I doing workshop, I mainly learned about Arrays and Debugging.
+Array is the data structure which can store the primitive type of data such as int, char, double, float, and so on. 
+The array is the simplest data structure where each data element can be randomly accessed by using its index number. 
+In this workshop, I used three arrays to store Day, High temperature, and Low temperature data. 
+By receiving input data and checking the validity of the inputs, I figured out high and low temperatures. 
+To derive high/low temperatures, firstly I stored each data into arrays. 
+Then, by comparing each components each other, I figure out high and low temperatures as well as their indices. 
+By using the array, I can reduce variable declarations and easily access the data that I want.
+I also done Debugging while I correct my code with syntactic and semantic errors.
+In visual studio, user can run line-by-line or block-by-block by selecting break points.
+By doing these, I could identify intermediate results, and figure out which part of my code is wrong and the reason easily.
+
+<What was good about using arrays>
+By using arrays, we can reduce code length when many variable with same data type are need to be declared.
+In addition, the elements in arrays can be accessed randomly by using the index number. 
+
+<Comment on the use of parallel array’s>
+In parallel arrays, one of the array holds the key, while the others hold values. In this workshop, day array performs as key, and high/low temperature arrays performs as values. The arrays are parallel since the elements at the same index hold data that are related to one another. 
+Parallel arrays are simple to process and intuitive. 
+However, it requires additional memory to store key values.
+
+<Iterating through arrays is a common practice; Why is it a best practice to initialize iterator variables to a value of zero?>
+In an array, Index numbering for each element starts at 0. 
+Therefore, practice to initialize iterator variables to a value of zero is the best way.

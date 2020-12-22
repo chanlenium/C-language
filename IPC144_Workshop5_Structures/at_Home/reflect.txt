@@ -1,0 +1,33 @@
+//==============================================
+// Name:           Dongchan	Oh
+// Student Number: 128975190
+// Email:          dcoh@myseneca.ca
+// Section:        M
+// Workshop:       5 (at-home)
+//==============================================
+
+In this workshop, I have learned about the use of structure. Stricture allows user to define type of variables that can hold several data items of the different kinds.
+While doing workshop, I want to keep track of employee information(i.e., ID, Age, and Salary) in an employ structure. 
+And I generated emp[size] array, each element emp[i] (here, i = 0, 1, ..., size-1) stores employee i's information. 
+When initializing emp[size] array, I uses zero expression with doubled backet such as
+
+emp[size] = { {0} }
+
+To ckeck logic condition, I used do-while statememt. 
+In the logic checking, I accessed the record of each array element by the use of expression "emp[i].recordName"
+Based on the ID information, I searched the employee information that I want to modify or delete.
+When modifying and deleting the employee information, I also used expression "emp[i].recordName.
+
+The main advantage of using an array of structure is for programmers to combine diffrent kind of data type variables and declare a single structure.
+In addition, programmers can customize the composition of sturucture as they want.
+On the other hand, parallel array can only declare variables with same data type.
+For example, by creating struct employee emp[size], if we want to access the age property, we can only use emp[size].age, simply. 
+However, if using an array, we need to create three arrays for those: empAge[size], empId[size] and empSalary[size].
+
+I declared Employee structure before main function.
+This is due to the fact that C performs line-by-line.
+Therefore before using the srtructure type variable or array is used in main function, structure should be declared in advance.
+By placing delararion of Employee structure, users can figure out about variables in the code easily. 
+
+Moreover, a struct data type can be generated in header file, and in the other pages we want to access this struct properties.
+The only thing we need to do is include the header file on the top of the file, instead of declare the same struct data type in each file.

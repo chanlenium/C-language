@@ -1,0 +1,25 @@
+//==============================================
+// Name:           Dongchan Oh
+// Student Number: 128975190
+// Email:          dcoh@myseneca.ca
+// Section:        M
+// Date:           20200309  
+//==============================================
+// Assignment:     1
+// Milestone:      4
+//==============================================
+
+From doing milestons three and four, I leaned about that a structure type may have members that are another structure type.
+I also learned that passing an object by address is quite efficient. This is because it avoids copying all of the member values, saving both time and space.
+Passing an object by address only copies the address.
+
+Making a struct, Contact, to hold three other structs as data members is efficient. This is because the programmer reduce the number of variables in main function.
+When using three structs, the programmer needs to declare three struct variable. However, by holding these three structs into one struct, the needed varibale to access the members is only one.
+For example, from doing milestone four, I could declare only one variable "contact" and access fields as follows:
+
+fields about name : contact.name.xxx
+fields about address : contact.address.xxx
+fields about number : contact.numbers.xxx
+
+However, passing an object by address has also disadvantage. Since this method authorizes accessing address of original data, it cannot guarantee protection of original data.
+If someone accesses the object by using address and change it as his own way, the changed data could makes side effect on programs.  

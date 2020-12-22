@@ -1,0 +1,60 @@
+//==============================================
+// Name:           Dongchan Oh
+// Student Number: 128975190
+// Email:          dcoh@myseneca.ca
+// Section:        M
+// Date:           20200302  
+//==============================================
+// Assignment:     1
+// Milestone:      2
+//==============================================
+
+In the first two milestones, I leand about how to declare structures in header file, and declare variables with type of these structures.
+I also learned about how to eleminate '\n' and read 'space' while using scanf. 
+'\n' is eleminated by using "%*c" as an end of specifier, and 'space' in the input of scanf can be read by using "%N[^\n]" where N is the maximum number of characters.
+
+The efficient way to ask a user to add the required information to each data field is to group variables with similar characteristics and declare them in one structure.
+By declaring the structure like this, programmers can easily add a new data field by considering its characteristic as well as reduce searching spaces to access the data field.
+For example, variables representing first name, middle name, and last name have a common point in that these variables are related to the name information.
+So, we can make structure called "Name" and declare variable "customerName" as follows.
+
+(in header file)
+strucre Name{
+   char first_name[10];
+   char middle_name[10];
+   char last_name[10];
+};
+
+(in c code)
+struct Name customerName; 
+
+When the programmers want to ask a user to add nickname, programmers can simply insert nickname field in Name structure as follows.
+
+(in header file)
+strucre Name{
+   char first_name[10];
+   char middle_name[10];
+   char last_name[10];
+   char nick_name[10];
+};
+
+(in c code)
+struct Name customerName;
+
+By doing this, programmers also easily access the name related field when coding in .c code. When the programmers want to access one of name related fields,
+they type "customerName" and ".", then they find the data fileds related to name.
+
+The main difference between Character and String is that Character refers to a single letter, number, space, or a symbol while String refers to a set of characters.
+Another difference between an array of Characters and a String is the addition of a NULL character(\0) at the end. NULL indicates where the end of the string is located.
+Character array can be printed by the use of specifier "%s" as follows.
+
+#include <stdio.h>
+
+int main(void) {
+  char fName[30] = "David";
+  printf("Name: %s\n", fName);
+  return 0;
+}
+
+The results is "Name: David".
+  

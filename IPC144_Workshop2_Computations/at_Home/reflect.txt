@@ -1,0 +1,24 @@
+//==============================================
+// Name:           Dongchan Oh
+// Student Number: 128975190
+// Email:          dcoh@myseneca.ca
+// Section:        NNM
+// Workshop:    2 (at-home)
+//==============================================
+
+From this workshop, I mainly learn about three important C language command, method to use arithmatic expression and cast.
+
+First, I practiced how to use "printf" and "scanf" function. When using "scanf" function, it is important the second argument should be address of variable.
+For example, when input value as variable 'x', the user should type "scanf("%lf", &x)".
+When using "printf" function, it is important to set specifier such as "%d, %.2lf" to make outputs readable.
+If user want to display result as decimal format, user should use specifier $d in printf function.
+
+Second, I practiced the method to caculate variable. When calculating how many loonies, quaters required in workshop, at fisrt I division and subtraction.
+However, it makes the length of code long. To alleviate this problem, I tried to covert floating-point values to integers when performing arithmetic opration.
+By doing this I could easily derive the number of loonies and quaters as well as remiders.
+
+Finally, I practiced the use of cast function. In using printf function, it is very important to match between specifier(first argument of printf function) and type of the second arguement of the function.
+It was somewhat confused, so the correct output could not be derived in first trial. However, by repeating trial in workshop, I could derive a desired result.
+
+I think the computation including Data Type, A Simple Calculation, Expresstions is a fundamental and very important at the first step of learining C-language.
+All in all, the workshop is helpful and interesting than difficult.

@@ -1,0 +1,22 @@
+In this workshop, I learned about conditional and iteration expressions. Especially, I tried to use 'while', 'do-while', and 'for' constructs.
+Three instructions control the execution of an iteration: an initialization, a test condition, a change statement.
+To solve the problem given in workshop, I described logic and type code.
+Although it was somewhat hard to describe pseudo code while predicting results, it was good experience for me to think computationally.  
+
+
+
+1. Pseudo code is a method that makes programmers think computationally.
+Pseudo code is readable sentence, so by describing pseudo-code before tying code, the programmers can reduce logical error.
+Instead of using pseudo code, I often use Flow chart since it is intuitive and easy understandable.
+
+
+
+2. for, while, do-while
+
+   I used for loop condition, since it performs iteratively if the condition is satisfied
+
+.
+   I also used while for condition check.
+
+3. I ran the code step by step, and checked the intreim results. If the interim results were wrong, I ckecked condition in loop and found error.
+Then, I corrected the error, and ran the code agian. I performed these actions again and again to test my soulution. 
